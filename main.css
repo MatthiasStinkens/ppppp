@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Candara Light",sans-serif;
+
+}
+#kleine_tekst_over_mezelf{
+    position: absolute;
+    top: 250px;
+    height: 100px;
+    width: 400px;
+    left: 300px;
+    right: 150px;
+    float: left;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    width: 100%;
+    background-color: #2c3e50 ;
+}
+
+
+#achtergrond{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 100px;
+    text-align: left;
+    font-size: 2rem;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.naam {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+
+.profiel img{
+    float: right;
+    width: 200px;
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    height: auto;
+}
+
+.div_kleine_tekst_over_mezelf{
+    position: absolute;
+    top: -100px;
+    height: 1700px;
+    width: 800px;
+    left: 300px;
+    right: 50px;
+}
+
+
+.arbeidsmarkt{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    height: 100px;
+}
+.motivatie{
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    height: 100px;
+}
+.motivatie_waarden_Kernkwadranten{
+    position: absolute;
+    top: 400px;
+    right: 10px;
+    height: 100px;
+}
+.feedback{
+    position: absolute;
+    top: 500px;
+    right: 10px;
+    height: 100px;
+}
+.reflectie_seminaris{
+    position: absolute;
+    top: 600px;
+    right: 10px;
+    height: 100px;
+}
+
+
+
+footer {
+    background-color: #34495e;
+    width: 100%;
+    color: white;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    margin-top: auto;
+    bottom: 0;
+}
+
+
+
+#grote_tekst_zelf_reflectie {
+    margin: auto;
+    height: 460px;
+    width: 1000px;
+    overflow: scroll;
+    left: 1px;
+    right: 100px;
+    top: 200px;
+    position: absolute;
+    background-color: white;
+}
+@media sreen and(max-width: 844px){
+
+}
+@media screen and (max-width: 1180px){
+}
+@media screen and (max-width: 1920px){
+}
+
+
+#linkedin img{
+    position: relative;
+    top: 118px;
+    left: 900px;
+    width: 80px;
+    height: 80px;
+}
+#instagram img{
+    position: relative;
+    top: 200px;
+    left: 790px;
+    width: 80px;
+    height: 80px;
+}
+
+#cv{
+    background-color: #34495e;
+    padding: 15px 20px;
+    position: absolute;
+    top: 260px;
+    left: 790px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.zoekbalk  {
+    color: #2c3e50;
+    float: right;
+    padding: 40px 50px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    text-space: 70px;
+    background-color: #34495e;
+    margin-left: 20px;
+
+}
+.zoekbalk  a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+/*kleuren aanpassen */
+.zoekbalk a:hover{
+    color: black;
+    background-color: #2c3e50;
+}
+.uitlegwpl1{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.bestanden_wpl {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bestanden {
+    width: 200px;
+    height: 100px;
+    background-color: #34495e;
+    margin: 150px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ div.foto\'s {
+     margin: 10px;
+     float: left;
+     width: 350px;
+     height: 300px;
+     top: 150px;
+ }
+
+div.foto\'s img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    top: 100px;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    div.foto\'s {
+        width: 30%;
+        margin: 20px 0;
+    }
+}
+
+h3{
+    float: left;
+    color: black;
+}
+a:link{
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+
+}
+.zoekbalk h3{
+    color: white;
+
+}
+
+
+div.foto\'s {
+position: relative;
+margin: 10px;
+float: left;
+width: 350px;
+height: 300px;
+top: 150px;
+}
+
+div.foto\'s img {
+width: 100%;
+height: 100%;
+float: left;
+top: 100px;
+object-fit: cover;
+transition: transform 0.2s;
+}
+
+div.foto\'s:hover img {
+transform: scale(1.1);
+}
+
+.mijn_naam {
+   position: relative;
+    top: 50px;
+    color: white;
+}
+
+.mijn_naam h1 {
+    text-align: center;
+}
+
+
+
